@@ -17,7 +17,7 @@ namespace DataAccess.Concrete.InMemory
                 new Car{Id=1,BrandId=1,ColorId=1,DailyPrice=400,ModelYear=2013,Description="Polo"},
                 new Car{Id=2,BrandId=1,ColorId=1,DailyPrice=450,ModelYear=2015,Description="Golf"},
                 new Car{Id=3,BrandId=2,ColorId=1,DailyPrice=500,ModelYear=2016,Description="Megane"},
-                new Car{Id=4,BrandId=2,ColorId=2,DailyPrice=550,ModelYear=2018,Description="Civic"},
+                new Car{Id=4,BrandId=2,ColorId=2,DailyPrice=600,ModelYear=2018,Description="Civic"},
                 new Car{Id=5,BrandId=2,ColorId=2,DailyPrice=700,ModelYear=2020,Description="Passat"},
             };
         }
