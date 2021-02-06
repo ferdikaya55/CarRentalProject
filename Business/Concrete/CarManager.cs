@@ -16,7 +16,16 @@ namespace Business.Concrete
         }
         public void Add(Car car)
         {
-            _carDal.Add(car);
+            if (car.DailyPrice>0)
+            {
+                _carDal.Add(car);
+                Console.WriteLine("Araba eklendi");
+            }
+            else
+            {
+                Console.WriteLine($"Lütfen günlük fiyatı 0'dan büyük giriniz. Girdiğiniz değer: {car.DailyPrice}");
+            }
+           
         }
 
         public void Delete(Car car)
@@ -24,19 +33,50 @@ namespace Business.Concrete
             _carDal.Delete(car);
         }
 
-        public List<Car> GetByAll()
+        public List<Car> GetAll()
         {
-            return _carDal.GetByAll();
+            return _carDal.GetAll();
         }
 
-        public List<Car> GetById(int carId)
+        public List<Car> GetAllByBrandId(int id)
         {
-            return _carDal.GetById(carId);
+            return _carDal.GetAll(p => p.BrandId == id);
         }
+
+        public List<Car> GetAllByColorId(int id)
+        {
+            return _carDal.GetAll(p => p.ColorId == id);
+        
+         }
+
+        public List<Car> GetByDailyPrice(decimal min, decimal max)
+        {
+            return _carDal.GetAll(c => c.DailyPrice >= min && c.DailyPrice <= max);
+        }
+
+        public Car GetById(int id)
+        {
+            return _carDal.Get(c => c.CarId == id);
+        }
+
+        public List<Car> GetByModelYear(string year)
+        {
+            throw new NotImplementedException();
+        }
+
+        
 
         public void Update(Car car)
         {
-            _carDal.Update(car);
+            if (car.DailyPrice > 0)
+            {
+                _carDal.Update(car);
+                Console.WriteLine("Araba başarıyla güncellendi.");
+            }
+            else
+            {
+                Console.WriteLine($"Lütfen günlük fiyat kısmını 0'dan büyük giriniz. Girdiğiniz değer : {car.DailyPrice}");
+            }
         }
     }
 }
