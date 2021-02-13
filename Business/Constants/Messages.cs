@@ -14,5 +14,14 @@ namespace Business.Constants
         public static string CarUpdated = "Araba başarıyla güncellendi.";
         public static string CarPriceCheck = "Lütfen günlük fiyat kısmını 0'dan büyük giriniz.";
         public static string BrandsListed = "Araç Markaları Listesi";
+        public static string ColorAdded = "Araç Rengi Eklendi";
+        public static string ColorDeleted = "Araç Rengi Silindi";
+        public static string ColorUpdated = "Araç Rengi Güncellendi";
+        public static string CustomerAdded = "Müşteri Eklendi";
+        public static string AddedUser = "Kullanıcı Eklendi";
+        public static string DeletedUser = "Kullanıcı Silindi";
+        public static string UpdatedUser = "Kullanıcı Güncellendi";
+        public static string RentalSuccess = "Kiralama işlemi başarılı";
+        public static string RentalError = "Aracın kiraya verilebilmesi için önce teslim edilmesi gerekir.";
     }
 }
