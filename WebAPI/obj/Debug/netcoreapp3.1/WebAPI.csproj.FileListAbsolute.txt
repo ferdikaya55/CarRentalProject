@@ -66,3 +66,7 @@ C:\Users\Ferdi Kaya\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\Web
 C:\Users\Ferdi Kaya\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\Ferdi Kaya\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\Ferdi Kaya\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\Ferdi Kaya\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\Ferdi Kaya\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Ferdi Kaya\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+C:\Users\Ferdi Kaya\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
