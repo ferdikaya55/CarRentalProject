@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "S+P6EAl2XLEM+TtWTpkbYk5C4HvKZFH910k2wYowM85H5M5OiifBx8Hc+V7eyi/OSTnCVjYPD8cGnblcub3+Rg==",
+  "dgSpecHash": "3OkJkp0K3WfiI/DD4tUnHY5C98YBI19yGeMQvBZvN9/ZLu+aNE+9BVJmMToGEXldDTdOlpoxkvgh4zwk6eZD0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ferdi Kaya\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ferdi Kaya\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\Ferdi Kaya\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
+    "C:\\Users\\Ferdi Kaya\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
+    "C:\\Users\\Ferdi Kaya\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Ferdi Kaya\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\Ferdi Kaya\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Ferdi Kaya\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
@@ -63,6 +67,7 @@
     "C:\\Users\\Ferdi Kaya\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Ferdi Kaya\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\Ferdi Kaya\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "C:\\Users\\Ferdi Kaya\\.nuget\\packages\\system.diagnostics.tracesource\\4.3.0\\system.diagnostics.tracesource.4.3.0.nupkg.sha512",
     "C:\\Users\\Ferdi Kaya\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "C:\\Users\\Ferdi Kaya\\.nuget\\packages\\system.dynamic.runtime\\4.3.0\\system.dynamic.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\Ferdi Kaya\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
