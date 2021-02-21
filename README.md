@@ -19,7 +19,7 @@ N-Katmanlı Mimari yapısı ile hazırlanan projemizde **Entities,DataAccess,Bus
 ## Entities
 Veritabanı nesneleri için oluşturulmuştur. Core katmanındaki IEntity interface'inden implemente edilmiştir.
 <br>:file_folder:`Abstract`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: ~~[IEntity.cs]~~ (Ortak Kod Olduğu İçin Core Katmanına Aktarıldı.)
+- ~~IEntity.cs~~ (Ortak Kod Olduğu İçin Core Katmanına Aktarıldı.)
 <br> <br> :file_folder:`Concrete`  
 - [Car.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Car.cs)  
 - [Brand.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Brand.cs)
@@ -29,7 +29,7 @@ Veritabanı nesneleri için oluşturulmuştur. Core katmanındaki IEntity interf
 - [Rental.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Rental.cs)  
 <br>:file_folder:`DTOs`  
 <br>:file_folder:`Abstract`  
-~~[IDto.cs]~~ (Ortak Kod Olduğu İçin Core Katmanına Aktarıldı.)
+- ~~IDto.cs~~ (Ortak Kod Olduğu İçin Core Katmanına Aktarıldı.)
 <br> <br> :file_folder:`Concrete`  
 - [CarDetailDto.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/DTOs/CarDetailDto.cs)  
 - [RentalDetailDto.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/DTOs/RentalDetailDto.cs)  
