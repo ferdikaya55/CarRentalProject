@@ -18,7 +18,7 @@ N-Katmanlı Mimari yapısı ile hazırlanan projemizde **Entities,DataAccess,Bus
 **Abstract klasörü soyut nesneleri, Concrete klasörü somut nesneleri tutmak için oluşturulmuştur.**
 ## Entities
 Veritabanı nesneleri için oluşturulmuştur. Core katmanındaki IEntity interface'inden implemente edilmiştir.
-<br> <br>:file_folder:`Abstract`
+<br> <br> :file_folder:`Abstract` 
 - ~~IEntity.cs~~ (Ortak Kod Olduğu İçin Core Katmanına Aktarıldı.)
 <br> <br> :file_folder:`Concrete`  
 - [Car.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Car.cs)  
@@ -40,25 +40,41 @@ Veritabanı nesneleri için oluşturulmuştur. Core katmanındaki IEntity interf
 CRUD işlemleri yapılır. Context Class'ı barındırır.
 
 <br>:file_folder:`Abstract`  
-- [IBrandDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Abstract/IBrandDal.cs)
-- [ICarDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Abstract/ICarDal.cs)
-- [IColorDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Abstract/IColorDal.cs)
-- [ICustomerDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Abstract/ICustomerDal.cs)
-- [IRentalDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Abstract/IRentalDal.cs)
-- [IUserDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Abstract/IUserDal.cs)
+- [IBrandDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/IBrandDal.cs)
+- [ICarDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/ICarDal.cs)
+- [IColorDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/IColorDal.cs)
+- [ICustomerDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/ICustomerDal.cs)
+- [IRentalDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/IRentalDal.cs)
+- [IUserDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/IUserDal.cs)
  
 <br> <br> :file_folder:`Concrete`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `EntityFramework`    
-- [EfBrandDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfBrandDal.cs)
-- [EfCarDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfCarDal.cs)
-- [EfColorDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfColorDal.cs)
-- [EfCustomerDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfCustomerDal.cs)
-- [EfRentalDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfRentalDal.cs)
-- [EfUserDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfUserDal.cs)
-- [MydbContext.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/MydbContext.cs)
+- [EfBrandDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Concrete/EntityFramework/EfBrandDal.cs)
+- [EfCarDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Concrete/EntityFramework/EfCarDal.cs)
+- [EfColorDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Concrete/EntityFramework/EfColorDal.cs)
+- [EfCustomerDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Concrete/EntityFramework/EfCustomerDal.cs)
+- [EfRentalDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Concrete/EntityFramework/EfRentalDal.cs)
+- [EfUserDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Concrete/EntityFramework/EfUserDal.cs)
+- [RentCarContext.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Concrete/EntityFramework/RentCarContext.cs)
 ## Business
 İş kodlarının yer aldığı kısımdır. Validation yöntemi de bu katman altında yapılmaktadır.
-
+<br>:file_folder:`Abstract` 
+- [IBrandService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/IBrandService.cs)
+- [ICarService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/ICarService.cs)
+- [IColorService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/IColorService.cs)
+- [ICustomerService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/ICustomerService.cs)
+- [IRentalService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/IRentalService.cs)
+- [IUserService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/IUserService.cs)
+- 
+<br> <br> :file_folder:`Concrete`
+- [BrandManager.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Concrete/BrandManager.cs)
+- [CarManager.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Concrete/CarManager.cs)
+- [ColorManager.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Concrete/ColorManager.cs)
+- [CustomerManager.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Concrete/CustomerManager.cs)
+- [RentalManager.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Concrete/RentalManager.cs)
+- [UserManager.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Concrete/UserManager.cs)
+<br> <br> :file_folder:`Constants`
+- [Messages.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Constants/Messages.cs)
 ## Core 
 Evrensel katmandır. Bir kere yazılır ve tüm projelerde kullanabiliriz. Başka bir katmana bağımlı olamaz.
 Diğer katmanlar Core katmanına bağlıdır ve referans alırlar.
