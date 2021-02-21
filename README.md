@@ -74,13 +74,13 @@ Evrensel katmandır. Bir kere yazılır ve tüm projelerde kullanabiliriz. Başk
 Diğer katmanlar Core katmanına bağlıdır ve referans alırlar.
 <br> <br> :file_folder:`DataAccess`
 [IEntityRepository.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/DataAccess/IEntityRepository.cs)
-<br> <br> :file_folder:`EntityFramework`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :file_folder:`EntityFramework`
    - [EfEntityRepositoryBase.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs)
  <br> <br> :file_folder:`Entities`
 - [IDto.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Entities/IDto.cs)
 - [IEntity.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Entities/IEntity.cs)
 <br> <br> :file_folder:`Utilities`
-<br> :file_folder:`Results`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder:`Results`
 - [DataResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/DataResult.cs)
 - [ErrorDataResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/ErrorDataResult.cs)
 - [ErrorResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/ErrorResult.cs)
