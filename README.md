@@ -53,7 +53,7 @@ CRUD işlemleri yapılır. Context Class'ı barındırır.
 - [RentCarContext.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Concrete/EntityFramework/RentCarContext.cs)
 ## Business
 İş kodlarının yer aldığı kısımdır. Validation yöntemi de bu katman altında yapılmaktadır.
-<br>:file_folder:`Abstract` 
+<br> <br> :file_folder:`Abstract` 
 - [IBrandService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/IBrandService.cs)
 - [ICarService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/ICarService.cs)
 - [IColorService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/IColorService.cs)
