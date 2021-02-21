@@ -18,7 +18,7 @@ N-Katmanlı Mimari yapısı ile hazırlanan projemizde **Entities,DataAccess,Bus
 **Abstract klasörü soyut nesneleri, Concrete klasörü somut nesneleri tutmak için oluşturulmuştur.**
 ## Entities
 Veritabanı nesneleri için oluşturulmuştur. Core katmanındaki IEntity interface'inden implemente edilmiştir.
-<br>:file_folder:`Abstract`
+<br> <br>:file_folder:`Abstract`
 - ~~IEntity.cs~~ (Ortak Kod Olduğu İçin Core Katmanına Aktarıldı.)
 <br> <br> :file_folder:`Concrete`  
 - [Car.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Car.cs)  
