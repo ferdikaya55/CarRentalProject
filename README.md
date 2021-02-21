@@ -75,6 +75,11 @@ CRUD işlemleri yapılır. Context Class'ı barındırır.
 <br> <br> :file_folder:`ValidationRules`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `FluentValidation`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [BrandValidator.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/ValidationRules/FluentValidation/BrandValidator.cs)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [CarValidator.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/ValidationRules/FluentValidation/CarValidator.cs)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ColorValidator.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/ValidationRules/FluentValidation/ColorValidator.cs)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [CustomerValidator.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/ValidationRules/FluentValidation/CustomerValidator.cs)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [RentalValidator.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/ValidationRules/FluentValidation/RentalValidator.cs)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [UserValidator.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/ValidationRules/FluentValidation/UserValidator.cs)
 ## Core 
 Evrensel katmandır. Bir kere yazılır ve tüm projelerde kullanabiliriz. Başka bir katmana bağımlı olamaz.
 Diğer katmanlar Core katmanına bağlıdır ve referans alırlar.
