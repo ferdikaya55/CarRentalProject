@@ -48,7 +48,7 @@ CRUD işlemleri yapılır. Context Class'ı barındırır.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IRentalDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/IRentalDal.cs)  
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IEntityRepository.cs](https://github.com/ergulkizilkaya/ReCapProject/blob/master/ReCapProject.DataAccess/Abstract/IEntityRepository.cs)
+
 <br> <br> :file_folder:`Concrete`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `EntityFramework`    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfBrandDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Concrete/EntityFramework/EfBrandDal.cs)  
