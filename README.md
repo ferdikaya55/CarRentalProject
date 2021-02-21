@@ -33,12 +33,8 @@ Veritabanı nesneleri için oluşturulmuştur. Core katmanındaki IEntity interf
 <br> <br> :file_folder:`Concrete`  
 - [CarDetailDto.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/DTOs/CarDetailDto.cs)  
 - [RentalDetailDto.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/DTOs/RentalDetailDto.cs)  
-
-
-
 ## DataAccess - Veri Erişim Katmanı
 CRUD işlemleri yapılır. Context Class'ı barındırır.
-
 <br>:file_folder:`Abstract`  
 - [IBrandDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/IBrandDal.cs)
 - [ICarDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/ICarDal.cs)
@@ -46,7 +42,6 @@ CRUD işlemleri yapılır. Context Class'ı barındırır.
 - [ICustomerDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/ICustomerDal.cs)
 - [IRentalDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/IRentalDal.cs)
 - [IUserDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/IUserDal.cs)
- 
 <br> <br> :file_folder:`Concrete`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `EntityFramework`    
 - [EfBrandDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Concrete/EntityFramework/EfBrandDal.cs)
@@ -65,7 +60,6 @@ CRUD işlemleri yapılır. Context Class'ı barındırır.
 - [ICustomerService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/ICustomerService.cs)
 - [IRentalService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/IRentalService.cs)
 - [IUserService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/IUserService.cs)
-- 
 <br> <br> :file_folder:`Concrete`
 - [BrandManager.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Concrete/BrandManager.cs)
 - [CarManager.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Concrete/CarManager.cs)
