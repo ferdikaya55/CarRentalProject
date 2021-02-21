@@ -1,8 +1,8 @@
-## Araç Kiralama Projesi
+## Rental Car Project
 Bu repo **Nitelikli Yazılım Geliştirici Yetiştirme Kampı**'nda yapılan çalışmaları kapsayan **Araç Kiralama Projesi**'ni içerir.
-## :pushpin: Getting Started
+## :pushpin: Introduction
 N-Katmanlı Mimari yapısı ile hazırlanan projemizde **Entities,DataAccess,Business,Core,WebAPI,ConsoleUI** katmanları yer almaktadır.
-### Proje içeriği
+### Project Content
 ---
   + SOLID 
   + EntityFramework
@@ -126,20 +126,19 @@ Controllers dosyasında yer alan class'ların amacı client tarafından server'a
 Programı test etmek amacıyla oluşturulmuştur.
 ## :arrow_down_small: Packages to Download
 
-**--DataAccess** <br>
-     📦 Microsoft.EntityFrameworkCore.SqlServer<br>
-     📦 Microsoft.EntityFrameworkCore<br>
-**--Core**<br>
-     📦 Microsoft.EntityFrameworkCore.SqlServer<br>
-     📦 Autofac (6.1.0)<br>
-     📦 Autofac.Extensions.DependencyInjection<br>
-     📦 Autofac.Extras.DynamicProxy<br>
-     📦 FluentValidation<br>
-**--Business**<br>
-     📦 Autofac<br>
-     📦 Autofac.Extras.DynamicProxy<br>
-     📦 FluentValidation<br>
-**--WebAPI**<br>
-     📦 Autofac.Extensions.DependencyInjection<br>
+**DataAccess** <br>
+     - Microsoft.EntityFrameworkCore.SqlServer<br>
+     - Microsoft.EntityFrameworkCore<br>
+**Core**<br>
+     - Microsoft.EntityFrameworkCore.SqlServer<br>
+     - Autofac.Extensions.DependencyInjection<br>
+     - Autofac.Extras.DynamicProxy<br>
+     - FluentValidation<br>
+**Business**<br>
+     - Autofac<br>
+     - Autofac.Extras.DynamicProxy<br>
+     - FluentValidation<br>
+**WebAPI**<br>
+     - Autofac.Extensions.DependencyInjection<br>
 
 
