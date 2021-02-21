@@ -53,7 +53,7 @@ CRUD işlemleri yapılır. Context Class'ı barındırır.
 - [RentCarContext.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Concrete/EntityFramework/RentCarContext.cs)
 ## Business
 İş kodlarının yer aldığı kısımdır. Validation yöntemi de bu katman altında yapılmaktadır.
-<br> <br> :file_folder:`Abstract` 
+<br> <br>:file_folder:`Abstract` 
 - [IBrandService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/IBrandService.cs)
 - [ICarService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/ICarService.cs)
 - [IColorService.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Abstract/IColorService.cs)
@@ -72,7 +72,23 @@ CRUD işlemleri yapılır. Context Class'ı barındırır.
 ## Core 
 Evrensel katmandır. Bir kere yazılır ve tüm projelerde kullanabiliriz. Başka bir katmana bağımlı olamaz.
 Diğer katmanlar Core katmanına bağlıdır ve referans alırlar.
-
+<br> <br> :file_folder:`DataAccess`
+[IEntityRepository.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/DataAccess/IEntityRepository.cs)
+<br> <br> :file_folder:`EntityFramework`
+   - [EfEntityRepositoryBase.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs)
+ <br> <br> :file_folder:`Entities`
+- [IDto.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Entities/IDto.cs)
+- [IEntity.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Entities/IEntity.cs)
+<br> <br> :file_folder:`Utilities`
+- <br> <br> :file_folder:`Results`
+    - [DataResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/DataResult.cs)
+    - [ErrorDataResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/ErrorDataResult.cs)
+    - [ErrorResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/ErrorResult.cs)
+    - [IDataResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/IDataResult.cs)
+    - [IResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/IResult.cs)
+    - [Result.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/Result.cs)
+    - [SuccessDataResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/SuccessDataResult.cs)
+    - [SuccessResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/SuccessResult.cs) 
 ## WebAPI
 Proje servislerine farklı yazılımlar,uygulamalar ve cihazlar üzerinden erişim sağlar.
 Controllers dosyasında yer alan class'ların amacı client tarafından server'a yapılan istekleri karşılamak ve çalıştıralacak olan servise karar vermektir.
