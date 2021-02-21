@@ -73,7 +73,7 @@ CRUD işlemleri yapılır. Context Class'ı barındırır.
 - [CustomerManager.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Concrete/CustomerManager.cs)
 - [RentalManager.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Concrete/RentalManager.cs)
 - [UserManager.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Concrete/UserManager.cs)
-<br> <br> :file_folder:`Constants`
+<br>:file_folder:`Constants`
 - [Messages.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Constants/Messages.cs)
 ## Core 
 Evrensel katmandır. Bir kere yazılır ve tüm projelerde kullanabiliriz. Başka bir katmana bağımlı olamaz.
