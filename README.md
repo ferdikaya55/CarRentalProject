@@ -93,6 +93,10 @@ Diğer katmanlar Core katmanına bağlıdır ve referans alırlar.
 - [AspectInterceptorSelector.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/Utilities/Interceptors/AspectInterceptorSelector.cs)
 - [MethodInterception.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/Utilities/Interceptors/MethodInterception.cs)
 - [MethodInterceptionBaseAttribute.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/Utilities/Interceptors/MethodInterceptionBaseAttribute.cs)
+<br> <br> :file_folder:`Aspect`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Validation`
+- [ValidationAspect.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/Aspects/Autofac/Validation/ValidationAspect.cs)
 <br> <br> :file_folder:`CrossCuttingConcerns`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Validation`
 - [Validationtool.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/CrossCuttingConcerns/Validation/ValidationTool.cs)
