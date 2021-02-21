@@ -124,7 +124,8 @@ Controllers dosyasında yer alan class'ların amacı client tarafından server'a
 
 ## ConsoleUI
 Programı test etmek amacıyla oluşturulmuştur.
-### Packages to Download :arrow_down_small:
+
+## Packages to Download :arrow_down_small:
 
  * Microsoft.EntityFrameworkCore.SqlServer
  * Microsoft.EntityFrameworkCore
