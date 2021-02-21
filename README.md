@@ -114,6 +114,13 @@ Diğer katmanlar Core katmanına bağlıdır ve referans alırlar.
 ## WebAPI
 Proje servislerine farklı yazılımlar,uygulamalar ve cihazlar üzerinden erişim sağlar.
 Controllers dosyasında yer alan class'ların amacı client tarafından server'a yapılan istekleri karşılamak ve çalıştıralacak olan servise karar vermektir.
+<br> <br> :file_folder:`Controllers`  
+- [BrandsController.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/WebAPI/Controllers/BrandsController.cs)
+- [CarsController.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/WebAPI/Controllers/CarsController.cs)
+- [ColorsControllers.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/WebAPI/Controllers/ColorsController.cs)
+- [CustomersController.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/WebAPI/Controllers/CustomerController.cs)
+- [RentalsController.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/WebAPI/Controllers/RentalsController.cs)
+- [UsersController.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/WebAPI/Controllers/UsersController.cs) 
 
 ## ConsoleUI
 Programı test etmek amacıyla oluşturulmuştur.
