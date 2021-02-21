@@ -21,12 +21,12 @@ Veritabanı nesneleri için oluşturulmuştur. Core katmanındaki IEntity interf
 <br>:file_folder:`Abstract`  
 - ~~IEntity.cs~~ (Ortak Kod Olduğu İçin Core Katmanına Aktarıldı.)
 <br> <br> :file_folder:`Concrete`  
-    - [Car.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Car.cs)  
-    - [Brand.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Brand.cs)
-    - [Color.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Color.css)
-    - [User.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/User.cs)  
-    - [Customer.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Customer.cs)  
-    - [Rental.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Rental.cs)  
+- [Car.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Car.cs)  
+- [Brand.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Brand.cs)
+- [Color.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Color.css)
+- [User.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/User.cs)  
+- [Customer.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Customer.cs)  
+- [Rental.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Rental.cs)  
 <br>:file_folder:`DTOs`  
 <br>:file_folder:`Abstract`  
 - ~~IDto.cs~~ (Ortak Kod Olduğu İçin Core Katmanına Aktarıldı.)
@@ -49,13 +49,13 @@ CRUD işlemleri yapılır. Context Class'ı barındırır.
  
 <br> <br> :file_folder:`Concrete`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `EntityFramework`    
-    - [EfBrandDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfBrandDal.cs)
-    - [EfCarDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfCarDal.cs)
-    - [EfColorDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfColorDal.cs)
-    - [EfCustomerDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfCustomerDal.cs)
-    - [EfRentalDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfRentalDal.cs)
-    - [EfUserDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfUserDal.cs)
-    - [MydbContext.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/MydbContext.cs)
+- [EfBrandDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfBrandDal.cs)
+- [EfCarDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfCarDal.cs)
+- [EfColorDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfColorDal.cs)
+- [EfCustomerDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfCustomerDal.cs)
+- [EfRentalDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfRentalDal.cs)
+- [EfUserDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfUserDal.cs)
+- [MydbContext.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/MydbContext.cs)
 ## Business
 İş kodlarının yer aldığı kısımdır. Validation yöntemi de bu katman altında yapılmaktadır.
 
