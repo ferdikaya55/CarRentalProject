@@ -124,5 +124,22 @@ Controllers dosyasında yer alan class'ların amacı client tarafından server'a
 
 ## ConsoleUI
 Programı test etmek amacıyla oluşturulmuştur.
+## :arrow_down_small: Packages to Download
+
+**--DataAccess** <br>
+     📦 Microsoft.EntityFrameworkCore.SqlServer<br>
+     📦 Microsoft.EntityFrameworkCore<br>
+**--Core**<br>
+     📦 Microsoft.EntityFrameworkCore.SqlServer<br>
+     📦 Autofac (6.1.0)<br>
+     📦 Autofac.Extensions.DependencyInjection<br>
+     📦 Autofac.Extras.DynamicProxy<br>
+     📦 FluentValidation<br>
+**--Business**<br>
+     📦 Autofac<br>
+     📦 Autofac.Extras.DynamicProxy<br>
+     📦 FluentValidation<br>
+**--WebAPI**<br>
+     📦 Autofac.Extensions.DependencyInjection<br>
 
 
