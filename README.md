@@ -72,9 +72,8 @@ CRUD işlemleri yapılır. Context Class'ı barındırır.
 ## Core 
 Evrensel katmandır. Bir kere yazılır ve tüm projelerde kullanabiliriz. Başka bir katmana bağımlı olamaz.
 Diğer katmanlar Core katmanına bağlıdır ve referans alırlar.
-<br> <br> :file_folder:`DataAccess`
-[IEntityRepository.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/DataAccess/IEntityRepository.cs)
-<br> :file_folder:`EntityFramework`
+<br> <br> :file_folder:`DataAccess`[IEntityRepository.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/DataAccess/IEntityRepository.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `EntityFramework` `
    - [EfEntityRepositoryBase.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs)
  <br> <br> :file_folder:`Entities`
 - [IDto.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Entities/IDto.cs)
