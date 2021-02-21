@@ -88,7 +88,11 @@ Diğer katmanlar Core katmanına bağlıdır ve referans alırlar.
 - [IResult.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/Utilities/Results/IResult.cs)
 - [Result.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/Utilities/Results/Result.cs)
 - [SuccessDataResult.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/Utilities/Results/SuccessDataResult.cs)
-- [SuccessResult.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/Utilities/Results/SuccessResult.cs) 
+- [SuccessResult.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/Utilities/Results/SuccessResult.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Interceptors`
+- [AspectInterceptorSelector.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/Utilities/Interceptors/AspectInterceptorSelector.cs)
+- [MethodInterception.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/Utilities/Interceptors/MethodInterception.cs)
+- [MethodInterceptionBaseAttribute.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/Utilities/Interceptors/MethodInterceptionBaseAttribute.cs)
 ## WebAPI
 Proje servislerine farklı yazılımlar,uygulamalar ve cihazlar üzerinden erişim sağlar.
 Controllers dosyasında yer alan class'ların amacı client tarafından server'a yapılan istekleri karşılamak ve çalıştıralacak olan servise karar vermektir.
