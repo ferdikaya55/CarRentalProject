@@ -69,6 +69,12 @@ CRUD işlemleri yapılır. Context Class'ı barındırır.
 - [UserManager.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Concrete/UserManager.cs)
 <br>:file_folder:`Constants`
 - [Messages.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/Constants/Messages.cs)
+<br> <br> :file_folder:`DependencyResolver`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [AutofacBusinessModule.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/DependencyResolver/Autofac/AutofacBusinessModule.cs)
+<br> <br> :file_folder:`ValidationRules`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `FluentValidation`
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [BrandValidator.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Business/ValidationRules/FluentValidation/BrandValidator.cs)
 ## Core 
 Evrensel katmandır. Bir kere yazılır ve tüm projelerde kullanabiliriz. Başka bir katmana bağımlı olamaz.
 Diğer katmanlar Core katmanına bağlıdır ve referans alırlar.
