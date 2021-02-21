@@ -99,7 +99,7 @@ Diğer katmanlar Core katmanına bağlıdır ve referans alırlar.
 - [ValidationAspect.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/Aspects/Autofac/Validation/ValidationAspect.cs)
 <br> <br> :file_folder:`CrossCuttingConcerns`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Validation`
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-[Validationtool.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/CrossCuttingConcerns/Validation/ValidationTool.cs)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ [Validationtool.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Core/CrossCuttingConcerns/Validation/ValidationTool.cs)
 ## WebAPI
 Proje servislerine farklı yazılımlar,uygulamalar ve cihazlar üzerinden erişim sağlar.
 Controllers dosyasında yer alan class'ların amacı client tarafından server'a yapılan istekleri karşılamak ve çalıştıralacak olan servise karar vermektir.
