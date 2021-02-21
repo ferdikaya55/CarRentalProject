@@ -21,18 +21,18 @@ Veritabanı nesneleri için oluşturulmuştur. Core katmanındaki IEntity interf
 <br>:file_folder:`Abstract`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: ~~[IEntity.cs]~~ (Ortak Kod Olduğu İçin Core Katmanına Aktarıldı.)
 <br> <br> :file_folder:`Concrete`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Car.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Car.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Brand.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Brand.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Color.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Color.css)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [User.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/User.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Customer.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Customer.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Rental.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Rental.cs)  
+- [Car.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Car.cs)  
+- [Brand.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Brand.cs)
+- [Color.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Color.css)
+- [User.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/User.cs)  
+- [Customer.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Customer.cs)  
+- [Rental.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/Concrete/Rental.cs)  
 <br>:file_folder:`DTOs`  
 <br>:file_folder:`Abstract`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: ~~[IDto.cs]~~ (Ortak Kod Olduğu İçin Core Katmanına Aktarıldı.)
+~~[IDto.cs]~~ (Ortak Kod Olduğu İçin Core Katmanına Aktarıldı.)
 <br> <br> :file_folder:`Concrete`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CarDetailDto.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/DTOs/CarDetailDto.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [RentalDetailDto.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/DTOs/RentalDetailDto.cs)  
+- [CarDetailDto.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/DTOs/CarDetailDto.cs)  
+- [RentalDetailDto.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/Entities/DTOs/RentalDetailDto.cs)  
 
 
 
@@ -40,18 +40,22 @@ Veritabanı nesneleri için oluşturulmuştur. Core katmanındaki IEntity interf
 CRUD işlemleri yapılır. Context Class'ı barındırır.
 
 <br>:file_folder:`Abstract`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IBrandDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/IBrandDal.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICarDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/ICarDal.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IColorDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/IColorDal.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICustomerDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/ICustomerDal.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IUserDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/IUserDal.cs)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IRentalDal.cs](https://github.com/ferdikaya55/CarRentalProject/blob/main/DataAccess/Abstract/IRentalDal.cs)  
-
+- [IBrandDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Abstract/IBrandDal.cs)
+- [ICarDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Abstract/ICarDal.cs)
+- [IColorDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Abstract/IColorDal.cs)
+- [ICustomerDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Abstract/ICustomerDal.cs)
+- [IRentalDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Abstract/IRentalDal.cs)
+- [IUserDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Abstract/IUserDal.cs)
+ 
 <br> <br> :file_folder:`Concrete`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `EntityFramework`    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfBrandDal.cs](https://github.com/ergulkizilkaya/ReCapProject/blob/master/ReCapProject.DataAccess/Concrete/EntityFramework/EfBrandDal.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfCarDal.cs](https://github.com/ergulkizilkaya/ReCapProject/blob/master/ReCapProject.DataAccess/Concrete/EntityFramework/EfCarDal.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfColorDal.cs](https://github.com/ergulkizilkaya/ReCapProject/blob/master/ReCapProject.DataAccess/Concrete/EntityFramework/EfColorDal.cs) 
+ - [EfBrandDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfBrandDal.cs)
+ - [EfCarDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfCarDal.cs)
+ - [EfColorDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfColorDal.cs)
+ - [EfCustomerDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfCustomerDal.cs)
+ - [EfRentalDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfRentalDal.cs)
+ - [EfUserDal.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/EfUserDal.cs)
+ - [MydbContext.cs](https://github.com/hsnbskn/ReCapProject/blob/master/DataAccess/Concrete/EntityFramework/MydbContext.cs)
 ## Business
 İş kodlarının yer aldığı kısımdır. Validation yöntemi de bu katman altında yapılmaktadır.
 
