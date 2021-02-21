@@ -80,15 +80,15 @@ Diğer katmanlar Core katmanına bağlıdır ve referans alırlar.
 - [IDto.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Entities/IDto.cs)
 - [IEntity.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Entities/IEntity.cs)
 <br> <br> :file_folder:`Utilities`
-- <br> <br> :file_folder:`Results`
-    - [DataResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/DataResult.cs)
-    - [ErrorDataResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/ErrorDataResult.cs)
-    - [ErrorResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/ErrorResult.cs)
-    - [IDataResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/IDataResult.cs)
-    - [IResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/IResult.cs)
-    - [Result.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/Result.cs)
-    - [SuccessDataResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/SuccessDataResult.cs)
-    - [SuccessResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/SuccessResult.cs) 
+<br> :file_folder:`Results`
+- [DataResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/DataResult.cs)
+- [ErrorDataResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/ErrorDataResult.cs)
+- [ErrorResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/ErrorResult.cs)
+- [IDataResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/IDataResult.cs)
+- [IResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/IResult.cs)
+- [Result.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/Result.cs)
+- [SuccessDataResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/SuccessDataResult.cs)
+- [SuccessResult.cs](https://github.com/hsnbskn/ReCapProject/blob/master/Core/Utilities/Results/SuccessResult.cs) 
 ## WebAPI
 Proje servislerine farklı yazılımlar,uygulamalar ve cihazlar üzerinden erişim sağlar.
 Controllers dosyasında yer alan class'ların amacı client tarafından server'a yapılan istekleri karşılamak ve çalıştıralacak olan servise karar vermektir.
