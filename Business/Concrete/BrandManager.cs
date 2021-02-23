@@ -42,5 +42,16 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<Brand>(_brandDal.Get(c => c.BrandId == brandId));
         }
+        public IResult Update(Brand brand)
+        {
+            _brandDal.Update(brand);
+            return new SuccessResult(Messages.BrandUpdated);
+        }
+
+        public IResult Delete(Brand brand)
+        {
+            _brandDal.Delete(brand);
+            return new SuccessResult(Messages.BrandDeleted);
+        }
     }
 }

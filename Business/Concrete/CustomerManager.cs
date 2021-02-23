@@ -24,9 +24,24 @@ namespace Business.Concrete
             return new SuccessResult(Messages.CustomerAdded);
         }
 
+        public IResult Delete(Customer customer)
+        {
+            throw new NotImplementedException();
+        }
+
         public IDataResult<List<Customer>> GetAll()
         {
             return new SuccessDataResult<List<Customer>>(_customerDal.GetAll());
+        }
+
+        public IDataResult<Customer> GetById(int customerId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Update(Customer customer)
+        {
+            throw new NotImplementedException();
         }
     }
 }
