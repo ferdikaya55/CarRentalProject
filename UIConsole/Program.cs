@@ -35,26 +35,26 @@ namespace UIConsole
             {
                 case "1":
                     Console.WriteLine("Araç işlemleri seçildi");
-                    CarTest();
+                   // CarTest();
                     break;
                 case "2":
                     Console.WriteLine("Marka işlemleri seçildi");
-                    BrandTest();
+                    //BrandTest();
                     break;
                 case "3":
                     Console.WriteLine("Renk işlemleri seçildi");
                     break;
                 case "4":
                     Console.WriteLine("Kullanıcı işlemleri seçildi");
-                   UserTest();
+                   //UserTest();
                     break;
                 case "5":
                     Console.WriteLine("Müşteri işlemleri seçildi");
-                    CustomerTest();
+                  //  CustomerTest();
                     break;
                 case "6":
                     Console.WriteLine("Kiralama işlemleri seçildi");
-                    RentalTest();
+                 //   RentalTest();
                     break;
                 case "0":
                     Console.WriteLine("Çıkış yapılıyor");
@@ -64,7 +64,7 @@ namespace UIConsole
             }
         }
 
-        private static void RentalTest()
+       /* private static void RentalTest()
         {
             RentalManager rentalManager = new RentalManager(new EfRentalDal());
             var result = rentalManager.Add(new Rental { CarId = 1, CustomerId = 1, ReturnDate = new DateTime(2021, 02, 13), RentDate = DateTime.Today });
@@ -123,8 +123,8 @@ namespace UIConsole
             else
             {
                 Console.WriteLine(result.Message);
-            }
+            }*/
             
-        }
+        
     }
 }
