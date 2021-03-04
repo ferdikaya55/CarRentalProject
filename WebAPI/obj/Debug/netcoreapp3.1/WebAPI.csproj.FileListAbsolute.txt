@@ -74,3 +74,5 @@ C:\Users\Ferdi Kaya\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Flu
 C:\Users\Ferdi Kaya\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\Ferdi Kaya\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 C:\Users\Ferdi Kaya\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ferdi Kaya\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Antlr3.Runtime.dll
+C:\Users\Ferdi Kaya\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\WebGrease.dll

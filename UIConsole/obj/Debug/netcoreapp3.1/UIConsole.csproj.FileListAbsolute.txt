@@ -67,3 +67,10 @@ C:\Users\Ferdi Kaya\source\repos\ReCapProject\UIConsole\bin\Debug\netcoreapp3.1\
 C:\Users\Ferdi Kaya\source\repos\ReCapProject\UIConsole\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Users\Ferdi Kaya\source\repos\ReCapProject\UIConsole\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\Ferdi Kaya\source\repos\ReCapProject\UIConsole\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\Ferdi Kaya\source\repos\ReCapProject\UIConsole\bin\Debug\netcoreapp3.1\Antlr3.Runtime.dll
+C:\Users\Ferdi Kaya\source\repos\ReCapProject\UIConsole\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.dll
+C:\Users\Ferdi Kaya\source\repos\ReCapProject\UIConsole\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Ferdi Kaya\source\repos\ReCapProject\UIConsole\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Ferdi Kaya\source\repos\ReCapProject\UIConsole\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Ferdi Kaya\source\repos\ReCapProject\UIConsole\bin\Debug\netcoreapp3.1\Microsoft.Net.Http.Headers.dll
+C:\Users\Ferdi Kaya\source\repos\ReCapProject\UIConsole\bin\Debug\netcoreapp3.1\WebGrease.dll

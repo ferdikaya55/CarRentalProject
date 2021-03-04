@@ -18,6 +18,8 @@ namespace Business.Abstract
         IDataResult<List<Car>> GetByModelYear(string year);
         IDataResult<List<CarDetailDto>> GetCarDetails();
 
+        IResult TransactionalOperation(Car car);
+
 
     }
 }
